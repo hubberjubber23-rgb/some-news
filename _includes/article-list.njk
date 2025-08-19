@@ -1,0 +1,11 @@
+<div class='article-container'>
+    {% for article in articles %}
+        <a href="{{ article.link }}" target='_blank'>
+            <div class='article'>
+                <div class='text'>{{ article.text }}</div>
+                <div class='creator'>{{ article.publisher }} - {{ article.creator }}</div>
+                <div class='date'>{{ article.pubDate }}</div>
+            </div>
+        </a>
+    {% endfor %}
+</div>

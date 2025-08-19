@@ -56,3 +56,33 @@ table, th, td {
 .table-wrapper {
     overflow-x: auto;
 }
+
+
+
+.article-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.article-container a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.article-container a .article {
+    border: 1px solid grey;
+    padding: 12px;
+    border-radius: 12px;
+    color: black;
+    box-shadow: 5px 5px;
+}
+
+.article-container a .creator {
+    font-size: .85em;
+    opacity: 0.5;
+}
+
+.article-container a .date {
+    font-size: .6em;
+}
